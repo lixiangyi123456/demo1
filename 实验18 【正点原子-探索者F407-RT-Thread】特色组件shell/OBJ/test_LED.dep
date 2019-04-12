@@ -1,5 +1,5 @@
 Dependencies for Project 'test', Target 'LED': (DO NOT MODIFY !)
-F (.\main.c)(0x5A0FA316)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\HARDWARE\LED -I ..\FWLIB\inc -I ..\drivers-I.\RTE\RTOS-I.\RTE\_LED-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\PACK\rt-thread\rtthread\3.0.3\components\finsh-IC:\Keil_v5\ARM\PACK\rt-thread\rtthread\3.0.3\include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F407xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\main.o --omf_browse ..\obj\main.crf --depend ..\obj\main.d)
+F (.\main.c)(0x5CB09591)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\HARDWARE\LED -I ..\FWLIB\inc -I ..\drivers-I.\RTE\RTOS-I.\RTE\_LED-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\PACK\rt-thread\rtthread\3.0.3\components\finsh-IC:\Keil_v5\ARM\PACK\rt-thread\rtthread\3.0.3\include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F407xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\main.o --omf_browse ..\obj\main.crf --depend ..\obj\main.d)
 I (..\HARDWARE\LED\led.h)(0x5710F356)
 I (..\SYSTEM\sys\sys.h)(0x5710F356)
 I (..\USER\stm32f4xx.h)(0x5710F357)
@@ -549,7 +549,7 @@ I (..\FWLIB\inc\stm32f4xx_can.h)(0x5710F355)
 I (..\FWLIB\inc\stm32f4xx_dac.h)(0x5710F355)
 I (..\FWLIB\inc\stm32f4xx_dcmi.h)(0x5710F355)
 I (..\FWLIB\inc\stm32f4xx_fsmc.h)(0x5710F355)
-F (..\readme.txt)(0x5A0FA360)()
+F (..\readme.txt)(0x5CB07DA5)()
 F (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\3.0.3\components\finsh\cmd.c)(0x5A9A33B8)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\HARDWARE\LED -I ..\FWLIB\inc -I ..\drivers-I.\RTE\RTOS-I.\RTE\_LED-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\PACK\rt-thread\rtthread\3.0.3\components\finsh-IC:\Keil_v5\ARM\PACK\rt-thread\rtthread\3.0.3\include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F407xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\cmd.o --omf_browse ..\obj\cmd.crf --depend ..\obj\cmd.d)
 I (C:\Keil_v5\ARM\PACK\rt-thread\rtthread\3.0.3\include\rtthread.h)(0x5A9A33B8)
 I (.\RTE\RTOS\rtconfig.h)(0x5A0FBC40)

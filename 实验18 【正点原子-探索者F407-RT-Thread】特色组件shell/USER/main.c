@@ -15,7 +15,7 @@
  
  作者： RT-Thread	&	正点原子
 ************************************************/
-
+//lxy
 
 static struct rt_thread led0_thread;//线程控制块
 static struct rt_thread led1_thread;//线程控制块
