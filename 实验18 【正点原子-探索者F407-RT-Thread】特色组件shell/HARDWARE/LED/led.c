@@ -15,7 +15,8 @@
 //初始化PF9和PF10为输出口.并使能这两个口的时钟		    
 //LED IO初始化
 void LED_Init(void)
-{    	 
+{    
+  while(0);	
   GPIO_InitTypeDef  GPIO_InitStructure;
 
   RCC_AHB1PeriphClockCmd(RCC_AHB1Periph_GPIOF, ENABLE);//使能GPIOF时钟
@@ -28,7 +29,7 @@ void LED_Init(void)
   GPIO_InitStructure.GPIO_PuPd = GPIO_PuPd_UP;//上拉
   GPIO_Init(GPIOF, &GPIO_InitStructure);//初始化GPIO
 	
-	GPIO_SetBits(GPIOF,GPIO_Pin_9 | GPIO_Pin_10);//GPIOF9,F10设置高，灯灭
+  GPIO_SetBits(GPIOF,GPIO_Pin_9 | GPIO_Pin_10);//GPIOF9,F10设置高，灯灭
 
 }
 

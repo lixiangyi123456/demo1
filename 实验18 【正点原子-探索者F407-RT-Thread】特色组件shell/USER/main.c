@@ -78,7 +78,7 @@ int main(void)
 							  20);                                  
   
     rt_thread_startup(&led1_thread);            //启动线程led1_thread，开启调度
-    
+    while(1);
 }
 
 
